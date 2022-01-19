@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.py": "python",
+        "*.html": "html",
+        "unordered_map": "cpp"
+    },
+}
