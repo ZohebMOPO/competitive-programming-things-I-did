@@ -1,0 +1,1 @@
+## All the competitive programming things I did for computing contests
