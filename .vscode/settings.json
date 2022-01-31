@@ -1,8 +1,10 @@
 {
-    "files.associations": {
-        "*.py": "python",
-        "*.html": "html",
-        "unordered_map": "cpp",
-        "iostream": "cpp"
-    },
+  "files.associations": {
+    "*.html": "html",
+    "*.txt": "plaintext",
+    "*.py": "python",
+    "unordered_map": "cpp",
+    "iostream": "cpp",
+    "ostream": "cpp"
+  }
 }
