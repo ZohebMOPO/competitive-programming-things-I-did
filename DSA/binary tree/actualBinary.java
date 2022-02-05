@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class insertElement {
+public class actualBinary {
     static class Node {
         int key;
         Node left, right;
@@ -43,6 +43,28 @@ public class insertElement {
             } else {
                 q.add(temp.right);
             }
+        }
+    }
+    static void deleteDeepest(Node root, Node delNode){
+        Queue<Node> q = new LinkedList<Node>();
+        q.add(root);
+
+        Node temp = null;
+
+        while(!q.isEmpty()){
+            temp = q.peek();
+            q.remove();
+
+            if(temp == delNode){
+                temp = null;
+                return;
+            }
+            if(temp.right != null){
+                if(temp.right == delNode){
+                    temp.right = null;
+                }
+            }
+            
         }
     }
 }
